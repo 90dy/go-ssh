@@ -1,0 +1,14 @@
+{
+	"root": "libs/go-ssh",
+	"projectType": "library",
+	"sourceRoot": "libs/go-ssh",
+	"targets": {
+		"test": {
+			"executor": "@nx-go/nx-go:test"
+		},
+		"lint": {
+			"executor": "@nx-go/nx-go:lint"
+		}
+	},
+	"tags": []
+}
